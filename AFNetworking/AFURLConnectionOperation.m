@@ -32,6 +32,7 @@ typedef enum {
 typedef signed short AFOperationState;
 
 #if __IPHONE_OS_VERSION_MIN_REQUIRED
+#import <UIKit/UIKit.h>
 typedef UIBackgroundTaskIdentifier AFBackgroundTaskIdentifier;
 #else
 typedef id AFBackgroundTaskIdentifier;

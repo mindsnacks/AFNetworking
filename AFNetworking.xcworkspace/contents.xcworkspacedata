@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AFNetworking.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:iOS Example/AFNetworking iOS Example.xcodeproj">
    </FileRef>
    <FileRef
